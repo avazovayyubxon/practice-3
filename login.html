@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      form {
+        max-width: 340px;
+        width: 100%;
+        font-family: "Urbanist";
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+      }
+      .back {
+        margin-bottom: 30px;
+      }
+      .title {
+        width: 340px;
+        height: 78px;
+        font-weight: 700;
+        line-height: 39px;
+        color: #1e232c;
+        margin-bottom: 30px;
+      }
+      .input-group {
+        margin-bottom: 15px;
+      }
+      .input-group input {
+        width: 100%;
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid #e8ecf4;
+      }
+      .input-group input::placeholder {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #8391a1;
+        padding-left: 18px;
+        font-family: "Urbanist";
+      }
+      .forgot {
+        text-align: right;
+        margin-bottom: 30px;
+      }
+      .forgot a {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        text-decoration: none;
+        color: #6a707c;
+      }
+      .submitButton button {
+        width: 100%;
+        height: 56px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #1e232c;
+        margin-bottom: 40px;
+      }
+      hr {
+        width: 90px;
+        border: 1px solid #e8ecf4;
+      }
+      .socialmedia {
+        color: #6a707c;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        margin-bottom: 22px;
+      }
+      .btn-block {
+        margin-bottom: 30px;
+      }
+      .content {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+      }
+      .content a {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: center;
+        color: #35c2c1;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="back">
+        <svg
+          width="41"
+          height="41"
+          viewBox="0 0 41 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="40"
+            height="40"
+            rx="11.5"
+            fill="white"
+            stroke="#E8ECF4"
+          />
+          <path
+            d="M23.1575 13.3671C23.0656 13.275 22.9564 13.2019 22.8362 13.152C22.7159 13.1021 22.5871 13.0764 22.4569 13.0764C22.3267 13.0764 22.1978 13.1021 22.0776 13.152C21.9574 13.2019 21.8482 13.275 21.7563 13.3671L15.1775 19.9459C15.1041 20.0191 15.0459 20.1061 15.0062 20.2019C14.9664 20.2977 14.946 20.4003 14.946 20.504C14.946 20.6077 14.9664 20.7104 15.0062 20.8061C15.0459 20.9019 15.1041 20.9889 15.1775 21.0621L21.7563 27.6409C22.1442 28.0288 22.7696 28.0288 23.1575 27.6409C23.5454 27.253 23.5454 26.6276 23.1575 26.2396L17.4259 20.5001L23.1654 14.7605C23.5454 14.3805 23.5454 13.7471 23.1575 13.3671Z"
+            fill="#1E232C"
+            stroke="#1E232C"
+            stroke-width="0.2"
+          />
+        </svg>
+      </div>
+      <div class="title">
+        <h1>Welcome back! Glad to see you, Again!</h1>
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Enter your email" />
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Enter your password" />
+      </div>
+      <div class="forgot">
+        <a href="forgotpassword.html">
+          <p>Forgot Password?</p>
+        </a>
+      </div>
+      <div class="submitButton">
+        <button>Login</button>
+      </div>
+      <div class="socialmedia">
+        <hr />
+        Or Login with
+        <hr />
+      </div>
+      <div class="btn-block">
+        <svg
+          width="100"
+          height="56"
+          viewBox="0 0 100 56"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="55"
+            rx="7.5"
+            fill="white"
+            stroke="#E8ECF4"
+          />
+          <path
+            d="M49.3292 40V29.0703H52.714L53.2171 24.7909H49.3292V22.0652C49.3292 20.8303 49.6451 19.9849 51.2719 19.9849H53.3334V16.1696C52.3304 16.0525 51.3222 15.9959 50.3134 16.0002C47.3216 16.0002 45.2675 17.9899 45.2675 21.6424V24.7829H41.9048V29.0623H45.2749V40H49.3292Z"
+            fill="#4092FF"
+          />
+        </svg>
+        <svg
+          width="100"
+          height="56"
+          viewBox="0 0 100 56"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="55"
+            rx="7.5"
+            fill="white"
+            stroke="#E8ECF4"
+          />
+          <path
+            d="M41.3525 30.4656L40.5689 33.537L37.705 33.6006C36.8491 31.9338 36.3636 30.0266 36.3636 28C36.3636 26.0403 36.8175 24.1922 37.6221 22.5649H37.6227L40.1724 23.0558L41.2893 25.7169C41.0555 26.4325 40.9281 27.2007 40.9281 28C40.9282 28.8675 41.0779 29.6987 41.3525 30.4656Z"
+            fill="#FBBB00"
+          />
+          <path
+            d="M58.6777 25.7921C58.807 26.507 58.8744 27.2453 58.8744 27.9999C58.8744 28.846 58.7897 29.6713 58.6283 30.4675C58.0804 33.1765 56.6487 35.5421 54.6654 37.2161L54.6648 37.2155L51.4533 37.0434L50.9988 34.0642C52.3148 33.2538 53.3433 31.9856 53.885 30.4675H47.8664V25.7921H53.9728H58.6777Z"
+            fill="#518EF8"
+          />
+          <path
+            d="M54.6648 37.2156L54.6654 37.2162C52.7365 38.8441 50.2863 39.8181 47.619 39.8181C43.3327 39.8181 39.606 37.3026 37.705 33.6006L41.3525 30.4656C42.303 33.1292 44.7501 35.0253 47.619 35.0253C48.8521 35.0253 50.0074 34.6753 50.9987 34.0643L54.6648 37.2156Z"
+            fill="#28B446"
+          />
+          <path
+            d="M54.8033 18.9025L51.1571 22.0369C50.1311 21.3636 48.9183 20.9746 47.619 20.9746C44.6852 20.9746 42.1923 22.9577 41.2894 25.7168L37.6227 22.5649H37.6221C39.4954 18.7727 43.269 16.1818 47.619 16.1818C50.35 16.1818 52.854 17.2032 54.8033 18.9025Z"
+            fill="#F14336"
+          />
+        </svg>
+        <svg
+          width="100"
+          height="56"
+          viewBox="0 0 100 56"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="99"
+            height="55"
+            rx="7.5"
+            fill="white"
+            stroke="#E8ECF4"
+          />
+          <g clip-path="url(#clip0_161_170)">
+            <path
+              d="M42.5412 40.5133C42.053 40.1722 41.6204 39.7508 41.2598 39.2653C40.8632 38.7641 40.4958 38.2383 40.1595 37.6906C39.3702 36.4766 38.7513 35.1498 38.3217 33.7508C37.8055 32.1258 37.5556 30.5683 37.5556 29.0448C37.5556 27.3435 37.9061 25.8582 38.5917 24.6102C39.0999 23.6348 39.8472 22.8196 40.7561 22.2491C41.6369 21.6746 42.649 21.3602 43.6857 21.3391C44.0486 21.3391 44.4394 21.3943 44.8542 21.5C45.1521 21.5885 45.515 21.7283 45.9584 21.9021C46.5225 22.1305 46.8328 22.2702 46.938 22.3043C47.2685 22.4311 47.5462 22.4863 47.7645 22.4863C47.9301 22.4863 48.1637 22.4311 48.4292 22.3466C48.5785 22.2913 48.8602 22.1938 49.2633 22.0126C49.6626 21.8599 49.9768 21.7291 50.2267 21.6316C50.6098 21.513 50.9804 21.4033 51.3108 21.348C51.7025 21.2832 52.1001 21.266 52.4955 21.2968C53.1808 21.3439 53.8558 21.4963 54.4989 21.7494C55.5505 22.1938 56.4009 22.8877 57.0339 23.8741C56.7664 24.0472 56.5153 24.2469 56.2841 24.4705C55.7808 24.9389 55.3521 25.4889 55.0143 26.0995C54.5727 26.934 54.3437 27.8741 54.3496 28.8287C54.3658 30.0011 54.6521 31.0338 55.2162 31.9268C55.631 32.5886 56.17 33.1545 56.8002 33.59C57.1229 33.8183 57.4007 33.9751 57.6669 34.0807C57.5423 34.487 57.4092 34.8802 57.2521 35.2702C56.8959 36.1448 56.4641 36.9833 55.9622 37.7751C55.5149 38.4568 55.1644 38.9646 54.8982 39.3026C54.4834 39.8186 54.0842 40.2126 53.681 40.4873C53.2376 40.796 52.7137 40.961 52.1814 40.961C51.8208 40.9755 51.4604 40.9297 51.1135 40.8253C50.8156 40.7196 50.5208 40.6051 50.2306 40.4743C49.9289 40.3288 49.6178 40.2058 49.2997 40.1062C48.5133 39.8941 47.6887 39.8927 46.9017 40.1021C46.579 40.1996 46.2687 40.3134 45.9623 40.4531C45.5312 40.6433 45.2449 40.7708 45.0793 40.8253C44.7489 40.9268 44.4061 40.9902 44.0595 41.0113C43.5232 41.0113 43.0233 40.8505 42.5281 40.5246L42.5412 40.5133ZM49.6139 20.5136C48.9128 20.8816 48.2435 21.0385 47.5787 20.9873C47.4743 20.2845 47.5787 19.5654 47.8565 18.7781C48.093 18.1111 48.4425 17.4945 48.888 16.9581C49.3585 16.3934 49.9294 15.9306 50.5687 15.5955C51.2497 15.2275 51.8989 15.0284 52.5195 14.9991C52.6 15.7353 52.5195 16.4592 52.2618 17.2416C52.0234 17.9333 51.6746 18.5773 51.2304 19.1461C50.7769 19.7116 50.2205 20.1762 49.5937 20.5128L49.6139 20.5136Z"
+              fill="black"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_161_170">
+              <rect
+                width="24.7619"
+                height="26"
+                fill="white"
+                transform="translate(35.238 15)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="content">
+        Don’t have an account? <a href="register.html">Register Now</a>
+      </div>
+    </form>
+  </body>
+</html>

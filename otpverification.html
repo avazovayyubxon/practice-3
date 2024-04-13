@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otp verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      form {
+        max-width: 340px;
+        width: 100%;
+        font-family: "Urbanist";
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+      }
+      .back {
+        margin-bottom: 60px;
+      }
+      .title h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39px;
+        color: #1e232c;
+        margin-bottom: 10px;
+      }
+      .title p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #8391a1;
+        margin-bottom: 50px;
+      }
+      .input-group {
+        margin-bottom: 40px;
+      }
+      .submitButton button {
+        width: 100%;
+        height: 56px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        background-color: #1e232c;
+        margin-bottom: 60px;
+      }
+      .content {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+      }
+      .content a {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: center;
+        color: #35c2c1;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="back">
+        <svg
+          width="41"
+          height="41"
+          viewBox="0 0 41 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="40"
+            height="40"
+            rx="11.5"
+            fill="white"
+            stroke="#E8ECF4"
+          />
+          <path
+            d="M23.1575 13.3671C23.0656 13.275 22.9564 13.2019 22.8362 13.152C22.7159 13.1021 22.5871 13.0764 22.4569 13.0764C22.3267 13.0764 22.1978 13.1021 22.0776 13.152C21.9574 13.2019 21.8482 13.275 21.7563 13.3671L15.1775 19.9459C15.1041 20.0191 15.0459 20.1061 15.0062 20.2019C14.9664 20.2977 14.946 20.4003 14.946 20.504C14.946 20.6077 14.9664 20.7104 15.0062 20.8061C15.0459 20.9019 15.1041 20.9889 15.1775 21.0621L21.7563 27.6409C22.1442 28.0288 22.7696 28.0288 23.1575 27.6409C23.5454 27.253 23.5454 26.6276 23.1575 26.2396L17.4259 20.5001L23.1654 14.7605C23.5454 14.3805 23.5454 13.7471 23.1575 13.3671Z"
+            fill="#1E232C"
+            stroke="#1E232C"
+            stroke-width="0.2"
+          />
+        </svg>
+      </div>
+      <div class="title">
+        <h1>OTP Verification</h1>
+        <p>Enter the verification code we just sent on your email address.
+        </p>
+      </div>
+      <div class="input-group">
+        <svg width="70" height="60" viewBox="0 0 70 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.6" y="0.6" width="68.8" height="58.8" rx="7.4" fill="white" stroke="#35C2C1" stroke-width="1.2"/>
+            <path d="M35.0501 38.286C34.0601 38.286 33.1654 38.0477 32.3661 37.571C31.5667 37.087 30.9324 36.4453 30.4631 35.646C30.0011 34.8467 29.7701 33.9703 29.7701 33.017H32.4541C32.4541 33.4937 32.5714 33.93 32.8061 34.326C33.0407 34.7147 33.3524 35.0263 33.7411 35.261C34.1371 35.4883 34.5734 35.602 35.0501 35.602C35.5267 35.602 35.9594 35.4883 36.3481 35.261C36.7367 35.0263 37.0484 34.7147 37.2831 34.326C37.5177 33.93 37.6351 33.4937 37.6351 33.017C37.6351 32.5403 37.5324 32.104 37.3271 31.708C37.1291 31.3047 36.8027 30.9857 36.3481 30.751C35.9007 30.509 35.3067 30.388 34.5661 30.388H30.6061L32.2341 22.6H39.8021V25.284H34.4121L33.9171 27.704L35.0061 27.715C36.0474 27.7517 36.9677 28.0047 37.7671 28.474C38.5664 28.9433 39.1897 29.574 39.6371 30.366C40.0917 31.1507 40.3191 32.0343 40.3191 33.017C40.3191 33.7357 40.1834 34.414 39.9121 35.052C39.6407 35.69 39.2631 36.251 38.7791 36.735C38.2951 37.219 37.7341 37.6003 37.0961 37.879C36.4654 38.1503 35.7834 38.286 35.0501 38.286Z" fill="#1E232C"/>
+            </svg>
+            <svg width="70" height="60" viewBox="0 0 70 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.6" y="0.6" width="68.8" height="58.8" rx="7.4" fill="white" stroke="#35C2C1" stroke-width="1.2"/>
+                <path d="M33.816 38V25.284H31.88L32.606 22.6H36.5V38H33.816Z" fill="#1E232C"/>
+                </svg>
+                <svg width="70" height="60" viewBox="0 0 70 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="69" height="59" rx="7.5" fill="white" stroke="#35C2C1"/>
+                    <path d="M34.6211 38.286C33.6897 38.286 32.8501 38.066 32.1021 37.626C31.3541 37.186 30.7601 36.5957 30.3201 35.855C29.8801 35.107 29.6601 34.2783 29.6601 33.369H32.3441C32.3441 33.7797 32.4394 34.1537 32.6301 34.491C32.8281 34.8283 33.0994 35.0997 33.4441 35.305C33.7887 35.503 34.1811 35.602 34.6211 35.602C35.0244 35.602 35.3984 35.503 35.7431 35.305C36.0951 35.0997 36.3774 34.8283 36.5901 34.491C36.8027 34.1537 36.9091 33.7797 36.9091 33.369C36.9091 32.8337 36.7661 32.39 36.4801 32.038C36.1941 31.6787 35.7944 31.411 35.2811 31.235C34.7751 31.059 34.1847 30.971 33.5101 30.971V28.903C34.4194 28.903 35.1381 28.7307 35.6661 28.386C36.2014 28.0413 36.4691 27.5353 36.4691 26.868C36.4691 26.5233 36.3811 26.208 36.2051 25.922C36.0291 25.636 35.7944 25.4087 35.5011 25.24C35.2151 25.064 34.8997 24.976 34.5551 24.976C34.2031 24.976 33.8621 25.064 33.5321 25.24C33.2021 25.4087 32.9307 25.636 32.7181 25.922C32.5127 26.208 32.4101 26.5233 32.4101 26.868H29.7261C29.7261 26.2373 29.8544 25.647 30.1111 25.097C30.3677 24.5397 30.7197 24.052 31.1671 23.634C31.6217 23.216 32.1351 22.8897 32.7071 22.655C33.2864 22.413 33.8914 22.292 34.5221 22.292C35.3507 22.292 36.1171 22.4973 36.8211 22.908C37.5251 23.3187 38.0897 23.8687 38.5151 24.558C38.9404 25.2473 39.1531 26.0173 39.1531 26.868C39.1531 27.462 39.0137 28.045 38.7351 28.617C38.4564 29.189 38.0604 29.5923 37.5471 29.827C37.9944 29.9883 38.3684 30.2597 38.6691 30.641C38.9697 31.015 39.1971 31.444 39.3511 31.928C39.5124 32.4047 39.5931 32.885 39.5931 33.369C39.5931 34.271 39.3657 35.096 38.9111 35.844C38.4564 36.5847 37.8514 37.1787 37.0961 37.626C36.3481 38.066 35.5231 38.286 34.6211 38.286Z" fill="#1E232C"/>
+                    </svg> 
+                    <svg width="70" height="60" viewBox="0 0 70 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="69" height="59" rx="7.5" fill="#F7F8F9" stroke="#E8ECF4"/>
+                        </svg>
+      </div>
+      <div class="submitButton">
+        <button>Verify</button>
+      </div>
+      <div class="content">
+        Didn’t received code?  <a href="password.html">Resend</a>
+      </div>
+    </form>
+  </body>
+</html>
